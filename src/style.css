@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 10px;
+}
+
+body {
+  background-color: #F7DFF0;
+}
+
+
+header {
+  font-size: 1em;
+  font-family: cursive, sans-serif;
+  color: #34045A;
+  text-align: center;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+
+}
+
+textarea[name="user-input"] {
+  border: none;
+  border-radius: 15px;
+  text-align: justify;
+  padding: 20px;
+
+
+
+}
+
+
+.metricas {
+  border: none;
+  background-color: #F5EDD5;
+  color: #34045A;
+  font-family: 'Iceland', 'Jura', 'Junge';
+  border-radius: 8px;
+  padding: 5px;
+  height: 40px;
+  width: 300px;
+  margin: 10px;
+  list-style: none;
+  padding: 10px;
+  text-align: justify;
+  
+}
+
+#reset-button {
+  border: none;
+  background-color: #D5B4EF;
+  font-family: 'Iceland', 'Jura', 'Junge';
+  border-radius: 8px;
+  height: 30px;
+  width: 100px;
+}
+
+footer {
+  color: #34045A;
+  text-align: center;
+  font-family: 'Jura', 'Junge', 'Jost';
+}

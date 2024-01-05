@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
@@ -8,6 +8,27 @@
 </head>
 
 <body>
+  <header>
+    <h1>✨ ANALIZADOR DE TEXTO ✨</h1>
+  </header>
+   
+  <main>
+    <textarea name="user-input" rows="16" cols="70" placeholder="Ingresa texto aquí" ></textarea>
+    <ul>
+      <li class="metricas" data-testid="word-count">palabras: </li>
+      <li class="metricas" data-testid="character-count">caracteres: </li>
+      <li class="metricas" data-testid="character-no-spaces-count">caracteres sin espacios: </li>
+      <li class="metricas" data-testid="number-count">números: </li>
+      <li class="metricas" data-testid="number-sum">suma total de números: </li>
+      <li class="metricas" data-testid="word-length-average">promedio longitud: </li>
+    </ul>
+    <button id="reset-button">Limpiar</button>
+  </main>
+ 
+  <footer>
+    <p>Creado por: Antone Gonzales</p>
+  </footer>
   <script src="index.js" type="module"></script>
 </body>
+
 </html>
