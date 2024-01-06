@@ -61,6 +61,7 @@ textarea[name="user-input"] {
   border-radius: 8px;
   height: 30px;
   width: 100px;
+  font-size: 20px;
 }
 
 footer {
