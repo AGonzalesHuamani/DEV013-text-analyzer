@@ -14,7 +14,6 @@ header {
   font-family: cursive, sans-serif;
   color: #34045A;
   text-align: center;
-
 }
 
 main {
@@ -23,8 +22,6 @@ main {
   justify-content: center;
   text-align: center;
   align-items: center;
-
-
 }
 
 textarea[name="user-input"] {
@@ -32,9 +29,6 @@ textarea[name="user-input"] {
   border-radius: 15px;
   text-align: justify;
   padding: 20px;
-
-
-
 }
 
 
@@ -50,8 +44,7 @@ textarea[name="user-input"] {
   margin: 10px;
   list-style: none;
   padding: 10px;
-  text-align: justify;
-  
+  text-align: justify;  
 }
 
 #reset-button {

@@ -52,8 +52,8 @@ obtener una comprensión más profunda de los textos.
 
 ## 3. Prototipo 
 
-a. primero hice un prototipo a mano alzada
-b. luego hice otro usando Figma
+Primero hice un prototipo a mano alzada 
+y luego hice otro usando Figma
 
 ![prototipo1](proto1.jpeg)
 ![prototipo2](proto2.png)

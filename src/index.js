@@ -7,19 +7,19 @@ const characterCount = document.querySelector("li[data-testid='character-count']
 const characterNoSpaces = document.querySelector("li[data-testid='character-no-spaces-count']");
 const numberCount = document.querySelector("li[data-testid='number-count']");
 const numberSum = document.querySelector("li[data-testid='number-sum']");
-const wordLengthAverage = document.querySelector("li[data-testid='word-length-average']");
+const wordLengthAverage = document.querySelector("li[data-testid='word-length-average']";
 
 const resetButton = document.getElementById("reset-button");
 resetButton.addEventListener("click", function limpiar() {
   //limpiar todo el contenido del textarea 
   textArea.value = '';
   // limpiar las Metricas a 0
-  wordCount.innerHTML = "palabras 0"
-  characterCount.innerHTML = "caracteres 0"
-  characterNoSpaces.innerHTML = "caracteres sin espacios 0"
-  numberCount.innerHTML = "números 0"
-  numberSum.innerHTML = "suma total de números 0"
-  wordLengthAverage.innerHTML = "promedio longitud 0"
+  wordCount.innerHTML = "palabras 0";
+  characterCount.innerHTML = "caracteres 0";
+  characterNoSpaces.innerHTML = "caracteres sin espacios 0";
+  numberCount.innerHTML = "números 0";
+  numberSum.innerHTML = "suma total de números 0";
+  wordLengthAverage.innerHTML = "promedio longitud 0";
 })
  
 textArea.addEventListener("input", function actualizarMetricas() {   
