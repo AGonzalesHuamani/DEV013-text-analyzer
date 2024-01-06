@@ -7,7 +7,7 @@ const characterCount = document.querySelector("li[data-testid='character-count']
 const characterNoSpaces = document.querySelector("li[data-testid='character-no-spaces-count']");
 const numberCount = document.querySelector("li[data-testid='number-count']");
 const numberSum = document.querySelector("li[data-testid='number-sum']");
-const wordLengthAverage = document.querySelector("li[data-testid='word-length-average']";
+const wordLengthAverage = document.querySelector("li[data-testid='word-length-average']");
 
 const resetButton = document.getElementById("reset-button");
 resetButton.addEventListener("click", function limpiar() {
