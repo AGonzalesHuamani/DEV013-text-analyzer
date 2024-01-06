@@ -50,12 +50,15 @@ tomar decisiones informadas y sacar conclusiones significativas.
 Mediante el uso de estas herramientas de análisis, las usuarias pueden
 obtener una comprensión más profunda de los textos.
 
-## 3. Resumen del proyecto
+## 3. Prototipo 
 
-En este proyecto crearás una aplicación web que servirá para que tu usuaria
-pueda analizar un texto en el navegador mostrando una serie de indicadores y
-métricas específicas sobre caracteres, letras, números, etc. Que hayan sido
-enviadas como _input_ por ella. Lo harás utilizando HTML, CSS y JavaScript.
+a. primero hice un prototipo a mano alzada
+b. luego hice otro usando Figma
+
+![prototipo1](proto1.jpeg)
+![prototipo2](proto2.png)
+
+
 
 ## 4. Funcionalidades
 
