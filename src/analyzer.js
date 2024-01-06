@@ -52,7 +52,7 @@ const analyzer = {
       suma += word[i].length;
     }
     const getAverageWordLength = suma / word.length;
-    return Math.round(getAverageWordLength*100)/100;
+    return getAverageWordLength.toFixed(2)
   },
  
 };
