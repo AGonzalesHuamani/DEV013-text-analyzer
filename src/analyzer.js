@@ -1,3 +1,12 @@
+
+const obtenerNumeros = function(texto){
+  const number = texto.match(/\b\d+(\.\d+)?\b/g);
+  if (number === null){
+    return []
+  }
+  return number
+}
+
 const analyzer = {
   getWordCount: (text) => {
     //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
@@ -18,30 +27,42 @@ const analyzer = {
   getNumberCount: (text) => {
     //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
     // con el metodo match estoy buscando solo nos numeros (exp regular)
-    const number = text.match(/\b\d+(\.\d+)?\b/g)
-    let numberCount = 0;
-    if (number === null) {
-      return 0
-    } else {
-      for (let i = 0; i < number.length; i++) {
-        numberCount++;
-      }
-    }
-    return numberCount
+    const arrayNumeros = obtenerNumeros(text)
+    const cantidadNumeros = arrayNumeros.length
+    return cantidadNumeros
+
+    // const number = text.match(/\b\d+(\.\d+)?\b/g)
+    // let numberCount = 0;
+    // if (number === null) {
+    //   return 0
+    // } else {
+    //   for (let i = 0; i < number.length; i++) {
+    //     numberCount++;
+    //   }
+    // }
+    // return numberCount
   },
   getNumberSum: (text) => {
     // //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
-    const number = text.match(/\b\d+(\.\d+)?\b/g)
-    let numberSum = 0;
-    if (number === null) {
-      return 0
-    } else {
-      for (let i = 0; i < number.length; i++) {
-        const item = number[i]
-        numberSum = numberSum + parseFloat(item);
-      }
+    const arrayNumeros = obtenerNumeros(text)
+    let numberSum = 0
+    for (let i = 0; i < arrayNumeros.length; i++) {
+      const item = arrayNumeros[i];
+      numberSum = numberSum + parseFloat(item);
     }
-    return numberSum;
+    return numberSum
+    
+    // const number = text.match(/\b\d+(\.\d+)?\b/g)
+    // let numberSum = 0;
+    // if (number === null) {
+    //   return 0
+    // } else {
+    //   for (let i = 0; i < number.length; i++) {
+    //     const item = number[i]
+    //     numberSum = numberSum + parseFloat(item);
+    //   }
+    // }
+    // return numberSum;
   },
   getAverageWordLength: (text) => {
     //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.

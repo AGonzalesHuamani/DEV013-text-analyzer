@@ -68,7 +68,7 @@ describe('analyzer', () => {
 });  
 
 //TODO: Remove .skip to execute the test for optional functionalities.
-describe.skip('Optional:', () => {
+describe('Optional:', () => {
   const TEST_TEST_EMPTY = '';
   const TEST_TEST_SPACES = '       ';
   const TEST_TEXT_PUNCTUATION_MARKS = '.,;:"«»[]{}()¿?¡!-';
